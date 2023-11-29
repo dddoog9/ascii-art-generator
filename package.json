@@ -2,7 +2,7 @@
   "name": "ascii-art-generator",
   "private": true,
   "homepage": "https://dddoog9.github.io/ascii-art-generator/",
-  "deploy": "gh-pages -d dist",
+  "deploy": "gh-pages -d build",
   "version": "0.0.1",
   "type": "module",
   "scripts": {
