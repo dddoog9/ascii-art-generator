@@ -2,14 +2,13 @@
   "name": "ascii-art-generator",
   "private": true,
   "homepage": "https://dddoog9.github.io/ascii-art-generator/",
-  "deploy": "gh-pages -d build",
   "version": "0.0.1",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d dist"
   },
   "devDependencies": {
     "gh-pages": "^6.1.0",
