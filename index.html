@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ASCII Art Generator</title>
+  <script type="module" crossorigin src="/assets/index-1O0LOsqP.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/index-CZsszOqS.css">
+</head>
+<body>
+  <div id="notifi">
+  </div>
+  <header class="header">
+    <h1>ASCII Generator</h1>
+    <input type="file" id="img-upload">
+  </header>
+  <div class="container">
+    <div class="img-settings">
+      <div id="preview"></div>
+      <div class="control">
+        <div class="size">
+          <label for="img-width">Width</label>
+          <input type="number" id="img-width" min="0" max="10000" value="0">
+          <label for="img-height">Height</label>
+          <input type="number" id="img-height" min="0" max="10000" value="0">
+          <label for="img-aspect">Aspect ratio</label>
+          <input type="checkbox" id="img-aspect" checked>
+          <label for="img-grayscale">Grayscale preview</label>
+          <input type="checkbox" id="img-grayscale">
+          <label for="ascii-chars">ASCII Chars</label>
+          <input type="text" id="ascii-chars">
+        </div>
+      </div>
+    </div>
+    <div class="ascii-box-control">
+      <label for="ascii-scale">ASCII Zoom:</label>
+      <input type="number" id="ascii-scale" min="0" max="200" value="0">
+    </div>
+    <div class="ascii-box">
+      <p id="ascii-surf"></p>
+    </div>
+    <footer>© 2023, ASCII Generator</footer>
+  </div>
+</body>
+</html>
