@@ -38,4 +38,4 @@ ASCII Art Generator
  
 ## License
 
-[MIT](LICENSE.md)
+[MIT](LICENSE)
